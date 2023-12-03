@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "trebuche-questionmark", "trebuche-questionmark\trebuche-questionmark.csproj", "{23BDAACE-9C10-4E7C-8002-18CF3CC82206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cube-conundrum", "cube-conundrum\cube-conundrum.csproj", "{1EB5BA4A-B265-4EA1-A41E-078E5E42BE27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gear-ratios", "gear-ratios\gear-ratios.csproj", "{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BDAACE-9C10-4E7C-8002-18CF3CC82206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BDAACE-9C10-4E7C-8002-18CF3CC82206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BDAACE-9C10-4E7C-8002-18CF3CC82206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BDAACE-9C10-4E7C-8002-18CF3CC82206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB5BA4A-B265-4EA1-A41E-078E5E42BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB5BA4A-B265-4EA1-A41E-078E5E42BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB5BA4A-B265-4EA1-A41E-078E5E42BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB5BA4A-B265-4EA1-A41E-078E5E42BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8145E8E8-1387-4A36-87AF-730798574573}
+	EndGlobalSection
+EndGlobal
