@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cube-conundrum", "cube-conu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gear-ratios", "gear-ratios\gear-ratios.csproj", "{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scratchcards", "scratchcards\scratchcards.csproj", "{D2A852C6-61DD-4A98-B663-EC23DF1D012A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
