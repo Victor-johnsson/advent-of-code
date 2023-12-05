@@ -5,7 +5,7 @@ var projectDirectory = Path.GetFullPath(Path.Combine(executableLocation, @"..\..
 var filePath = Path.Combine(projectDirectory, "almanack.txt");
 var file = File.ReadAllLines(filePath);
 
-//PartOne(file);
+PartOne(file);
 PartTwo(file);
 
 
@@ -64,12 +64,13 @@ void PartOne(string[] file)
 
 
 
-    Console.WriteLine(FindMinimumInSeedList(seeds, mapList));
+    Console.WriteLine("Part one: {0}",FindMinimumInSeedList(seeds, mapList));
 }
 
 
 void PartTwo(string[] file)
 {
+    ///Shitty solution haha kind of bruteforcing but works.
     var mapList = CreateListOfCategoryMaps(file);
 
     var seeds = file[0].Replace("seeds: ", string.Empty).Split(" ").Select(x => long.Parse(x)).ToList();
@@ -78,8 +79,10 @@ void PartTwo(string[] file)
     {
 
         var start = seeds[i];
-        var end = seeds[i + 1];
-        var seedRange = Enumerable.Range((int)start, (int)end).Select(x => (long)x).ToList();
+        var end = seeds[i + 1] + start;
+        end = end - start;
+        start = 0;
+        var seedRange = Enumerable.Range((int)start, (int)end).Select(x => (long)x + seeds[i]).ToList();
 
         var result = FindMinimumInSeedList(seedRange, mapList); 
         newSeedList.Add(result);
@@ -87,7 +90,7 @@ void PartTwo(string[] file)
 
     newSeedList.Sort();
 
-    Console.WriteLine(newSeedList[0]);
+    Console.WriteLine("Part two: {0}", newSeedList[0]);
 
 
 }
