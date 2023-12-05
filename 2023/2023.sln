@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gear-ratios", "gear-ratios\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scratchcards", "scratchcards\scratchcards.csproj", "{D2A852C6-61DD-4A98-B663-EC23DF1D012A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fertilize-a-seed", "fertilize-a-seed\fertilize-a-seed.csproj", "{076E0E55-16C1-4B45-9212-7C732F757107}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,14 @@ Global
 		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724FC0D7-9960-4B6D-8D00-0EF2BCC4D610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A852C6-61DD-4A98-B663-EC23DF1D012A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A852C6-61DD-4A98-B663-EC23DF1D012A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A852C6-61DD-4A98-B663-EC23DF1D012A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A852C6-61DD-4A98-B663-EC23DF1D012A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076E0E55-16C1-4B45-9212-7C732F757107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076E0E55-16C1-4B45-9212-7C732F757107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076E0E55-16C1-4B45-9212-7C732F757107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076E0E55-16C1-4B45-9212-7C732F757107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,5 @@
-﻿using System.Globalization;
+
 using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
 
 var executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 var projectDirectory = Path.GetFullPath(Path.Combine(executableLocation, @"..\..\.."));
@@ -8,7 +7,10 @@ var filePath = Path.Combine(projectDirectory, "scratchcards.txt");
 
 var scratchcards = File.ReadAllLines(filePath);
 
+PartOne(scratchcards);
 PartTwo(scratchcards);
+
+
 
 static void PartOne(string[] scratchcards)
 {
@@ -17,7 +19,6 @@ static void PartOne(string[] scratchcards)
     {
         var split = card.Split(" ");
         split = split.Where(x => !string.IsNullOrEmpty(x)).ToArray();
-        var cardnumber = split[1][..^1];
         var breakpoint = split.ToList().FindIndex(i => i == "|");
         var winningNumbers = split[2..breakpoint].ToList().Select(x => int.Parse(x)).ToList();
         var myNumbers = split[(breakpoint + 1)..^0].ToList().Select(x =>
@@ -33,7 +34,7 @@ static void PartOne(string[] scratchcards)
         total += Convert.ToInt32(points);
     }
 
-    // Console.WriteLine($"Part One: {total}");
+    Console.WriteLine($"Part One: {total}");
 
 }
 
