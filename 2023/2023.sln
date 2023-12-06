@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scratchcards", "scratchcard
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fertilize-a-seed", "fertilize-a-seed\fertilize-a-seed.csproj", "{076E0E55-16C1-4B45-9212-7C732F757107}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wait-for-it", "wait-for-it\wait-for-it.csproj", "{7B2E2533-E9AF-4CA5-9BB4-81661258A38D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{076E0E55-16C1-4B45-9212-7C732F757107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076E0E55-16C1-4B45-9212-7C732F757107}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076E0E55-16C1-4B45-9212-7C732F757107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2E2533-E9AF-4CA5-9BB4-81661258A38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2E2533-E9AF-4CA5-9BB4-81661258A38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2E2533-E9AF-4CA5-9BB4-81661258A38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2E2533-E9AF-4CA5-9BB4-81661258A38D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

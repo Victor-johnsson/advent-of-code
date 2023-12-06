@@ -2,7 +2,7 @@ using System.Reflection;
 
 var executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 var projectDirectory = Path.GetFullPath(Path.Combine(executableLocation, @"..\..\.."));
-var filePath = Path.Combine(projectDirectory, "almanack.txt");
+var filePath = Path.Combine(projectDirectory, "almanac.txt");
 var file = File.ReadAllLines(filePath);
 
 PartOne(file);
